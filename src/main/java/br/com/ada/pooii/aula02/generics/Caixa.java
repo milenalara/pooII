@@ -20,5 +20,9 @@ public class Caixa<T> {
     return obj;
   }
 
+  public String imprimir() {
+    return this.obj.toString();
+  }
+
 
 }
